@@ -1,0 +1,170 @@
+/* Cabeçalho Todas */
+
+* {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+#principal {
+    margin-left: 10px;
+}
+
+.menu {
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding-top: 8px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Página Produtos */
+
+.categorias {
+    margin-left: 5px;
+    padding: 0px 10px 0px 20px;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 250px auto;
+}
+
+.box_produtos {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 25px 0px 25px;
+}
+
+hr {
+    width: 100%;
+}
+
+.box_imagens {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.box_imagens img {
+    max-height: 75%;
+    max-width: 75%;
+}
+
+.descricao {
+    font-size: 13px;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.descricao2 {
+    font-size: 15px;
+    text-decoration: line-through;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.preco {
+    color: red;
+    font-size: 18px;
+    padding: 0;
+    border: 0;
+    Margin: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* Página Lojas */
+
+.lojas {
+    margin: 0px 50px;
+    padding-top: 0;
+    border: 0;
+}
+
+.unidades {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
+
+/* Página  Fale Conosco*/
+
+.contatos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    padding: 10px;
+}
+
+.comunicacao {
+    width: 50%;
+    text-align: center;
+}
+
+.comunicacao p {
+    font-size: 18px;
+}
+
+form {
+    margin: 0 auto;
+    padding-left: 30px;
+}
+
+input,
+textarea {
+    width: 400px;
+}
+
+
+/* Rodapé para geral*/
+
+#formas_pagamento {
+    color: red;
+    font-weight: bold;
+}
+
+#rodape {
+    text-align: center;
+}
+
+.assinatura {
+    font-size: 14px;
+}
